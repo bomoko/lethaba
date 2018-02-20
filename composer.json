@@ -2,6 +2,11 @@
     "name": "bomoko/lethaba",
     "description": "A toy framework (like the world needs another, right?)",
     "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Lethaba\\" : "app/"
+        }
+    },
     "require": {
         "bomoko/lethabadi": "^0.0.0"
     },
