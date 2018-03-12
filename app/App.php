@@ -12,12 +12,13 @@ use Bomoko\Lethaba\DIContainer;
  
     private $dic = null;
 
+
     private function __construct()
     {
         $this->dic = new DIContainer;
     }
     
-    public static run()
+    public static function run()
     {
         $instance = new App;
         $instance->init();
@@ -28,5 +29,7 @@ use Bomoko\Lethaba\DIContainer;
     {
         //Setup goes here
     }
+
+    
 
  }
